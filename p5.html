@@ -11,9 +11,26 @@
     </body>
 </html>
 <script>
-    var a = prompt("Enter Value Of A: ");
-    var b = prompt("Enter Value Of B: ");
-    var total = (a-b)(a+b);
+    var a = 100;
+    var b = 6;
+    var c = 10;
+    var first = a*a - b*b;
 
-    document.write("a² – b²= " + total);
+    var sec = a*a - 2*a*b + b*b;
+
+    var third = a*a + b*b + c*c + 2*a*b + 2*a*c + 2*b*c;
+
+    var fourth = a*a + b*b + c*c - 2*a*b - 2*a*c + 2*b*c;
+
+    var fifth = a*a*a - 3*a*a*b + 3*a*b*b - b*b*b;
+
+    document.write("<h1>" + "Answer of a² – b² : " + first + "<br>" + "<br>" + "</h1>");
+
+    document.write("<h1>" + "Answer of (a-b)² : " + sec + "<br>" + "<br>" + "</h1>");
+
+    document.write("<h1>" + "Answer of (a+b+c)² : " + third + "<br>" + "<br>" + "</h1>");
+
+    document.write("<h1>" + "Answer of (a-b-c)² : " + fourth + "<br>" + "<br>" + "</h1>");
+
+    document.write("<h1>" + "Answer of (a-b)³ : " + fifth + "<br>" + "<br>" + "</h1>");
 </script>
